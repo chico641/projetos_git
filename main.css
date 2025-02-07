@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: rgb(35, 35, 110);
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid #ffffff;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+form{
+    background-color: #c8d6e5;
+    padding: 24px 0;
+    text-align: center;
+}
+
+
+input,
+button{
+    padding: 8px;
+}
+
+button{
+    background-color: #00941b;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 8px;
+    align-items: flex-start;
+    padding: 0;
+    width: fit-content;
+    cursor: pointer;
+}
+
+li {
+    margin-left: -150px;
+}
+
+.riscado{
+    text-decoration: line-through;
+}
